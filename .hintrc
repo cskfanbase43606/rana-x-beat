@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "user-select",
+          "scrollbar-width",
+          "scrollbar-width: thin",
+          "scrollbar-color",
+          "accent-color",
+          "scrollbar-width: none"
+        ]
+      }
+    ],
+    "detect-css-reflows/composite": "off",
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "meta[name=theme-color]"
+        ]
+      }
+    ]
+  }
+}
